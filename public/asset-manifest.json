@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6af435c8.css",
+    "main.js": "/static/js/main.361709e2.js",
+    "static/js/498.e5c02641.chunk.js": "/static/js/498.e5c02641.chunk.js",
+    "static/js/703.0430de1e.chunk.js": "/static/js/703.0430de1e.chunk.js",
+    "static/js/598.da9b7717.chunk.js": "/static/js/598.da9b7717.chunk.js",
+    "static/media/loginImage.svg": "/static/media/loginImage.4fc0cce9d4522e34fc8cf5f974375372.svg",
+    "static/media/file-type-pdf.svg": "/static/media/file-type-pdf.a08004e23c25b9c3533238811f24a329.svg",
+    "static/media/file-type-excel.svg": "/static/media/file-type-excel.d025acf10c1a3b39234589c97d84763c.svg",
+    "static/media/Stock Out.svg": "/static/media/Stock Out.1777fd18d28b2f48a91e8e77a702689a.svg",
+    "static/media/Performa Invoice.svg": "/static/media/Performa Invoice.f679f21d9523db71e79716d2f57dc316.svg",
+    "static/media/Administration.svg": "/static/media/Administration.17c681fb3f8179200a1275d06d5ed014.svg",
+    "static/media/Dashboard.svg": "/static/media/Dashboard.f328a17f9c5293179594ff10bc2cbc33.svg",
+    "static/media/Service Module.svg": "/static/media/Service Module.086edaa575fa8eaf4d45a199ccc02cc6.svg",
+    "static/media/Stock In.svg": "/static/media/Stock In.6c0b5453893e5a090940be7129b7edea.svg",
+    "static/media/Inventory Master.svg": "/static/media/Inventory Master.faea034401c41a303e8cd339d71c290d.svg",
+    "static/media/Design Master.svg": "/static/media/Design Master.a19d2d775d50c30126ac2d9ebe9dd5e5.svg",
+    "static/media/Order Design Analysis.svg": "/static/media/Order Design Analysis.138e0a81a29d92c8cd3ca5290121fd50.svg",
+    "static/media/IconVisitors.svg": "/static/media/IconVisitors.6be9e32e1cd92fc35f023903009a4369.svg",
+    "static/media/Coustomer.svg": "/static/media/Coustomer.53142e2167099112eb5ffee471e25ad7.svg",
+    "static/media/Sales Order Creation.svg": "/static/media/Sales Order Creation.dde45ba4f56446f386fb6052f97e73e9.svg",
+    "static/media/Planning for classified.svg": "/static/media/Planning for classified.c7a5a76e2f2fa72db16371d2c0fa88ed.svg",
+    "static/media/Prodution Analysis.svg": "/static/media/Prodution Analysis.2a84e691e6e9d81b69f776b0640ae665.svg",
+    "index.html": "/index.html",
+    "static/media/Current Stock.svg": "/static/media/Current Stock.35b15e942874e64bf71dd12d37341598.svg",
+    "main.6af435c8.css.map": "/static/css/main.6af435c8.css.map",
+    "main.361709e2.js.map": "/static/js/main.361709e2.js.map",
+    "498.e5c02641.chunk.js.map": "/static/js/498.e5c02641.chunk.js.map",
+    "703.0430de1e.chunk.js.map": "/static/js/703.0430de1e.chunk.js.map",
+    "598.da9b7717.chunk.js.map": "/static/js/598.da9b7717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6af435c8.css",
+    "static/js/main.361709e2.js"
+  ]
+}
