@@ -71,6 +71,7 @@ async function validateToken(req, res, next) {
     }
 }
 
+
 async function getMasterData(req, res) {
     let ledgerMasterData;
     let accountGroupData;
@@ -79,6 +80,8 @@ async function getMasterData(req, res) {
     let menuMasterData;
     let companyMenuMasterData;
     let itemMasterData;
+    let patientMasterData;
+    let patientDetailsData;
 
     ledgerMasterData = await DB.execute(`SELECT * FROM ledger_master`);
     accountGroupData = await DB.execute(`SELECT * FROM account_group`);
@@ -87,6 +90,12 @@ async function getMasterData(req, res) {
     menuMasterData = await DB.execute(`SELECT * FROM menu_master`);
     companyMenuMasterData = await DB.execute(`SELECT * FROM company_menu_master`);
     itemMasterData = await DB.execute(`SELECT * FROM item_master`);
+    patientMasterData = await DB.execute(`SELECT * FROM registration_master`);
+    patientDetailsData = await DB.execute(`SELECT * FROM registration_details`);
+
+   
+  
+    
 
     ledgerMasterData = ledgerMasterData[0];
     accountGroupData = accountGroupData[0];
@@ -95,6 +104,8 @@ async function getMasterData(req, res) {
     menuMasterData = menuMasterData[0];
     companyMenuMasterData = companyMenuMasterData[0];
     itemMasterData = itemMasterData[0];
+    patientMasterData = patientMasterData[0];
+    patientDetailsData = patientDetailsData[0];
 
     res.json({
         isSuccess: true,
@@ -107,6 +118,8 @@ async function getMasterData(req, res) {
             menuMasterData,
             companyMenuMasterData,
             itemMasterData,
+            patientMasterData,
+            patientDetailsData,
         },
     });
 }

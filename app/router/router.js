@@ -22,7 +22,9 @@ let receiptController = require("../controller/receiptMaster.controller");
 let paymentController = require("../controller/paymentMaster.controller");
 let voucherController = require("../controller/voucher.controller")
 let fileUploadController = require("../controller/fileUpload.controller");
+let registerPatientController = require("../controller/registerPatient.controller");
 let errorHandlerController = require("../controller/errorHandler.controller");
+const { registerPatient } = require("../controller/registerPatient.controller");
 
 
 // User login & signup
@@ -90,6 +92,12 @@ router.post("/api/vouchers/add-details", createInfoFields,voucherController.addV
 router.post("/api/vouchers/edit-details", editInfoFields,voucherController.editVoucher);
 router.post("/api/payment-master/delete-row", editInfoFields, paymentController.deleteRow);
 
+// patient Registration
+//router.post("/api/patient-registration/get-city-data", registerPatientController.getCityData);
+// router.post("/api/patient-registration/reset-password", ledgerController.resetPassword);
+router.post("/api/patient-registration/add-patient-data", createInfoFields, registerPatientController.registerPatient);
+router.post("/api/patient-registration/edit-patient-data", editInfoFields, registerPatientController.updateRegistrationDetails);
+router.post("/api/patient-registration/delete-row", editInfoFields, registerPatientController.deleteRegistration);
 
 
 // File upload
